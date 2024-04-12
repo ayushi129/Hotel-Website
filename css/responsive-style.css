@@ -1,0 +1,47 @@
+@media (max-width: 1199px){
+    .navbar-expand-lg .navbar-nav{
+        align-items: center;        
+    }
+    .header-wrapper .navbar-nav .nav-link{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .main-btn{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 991px){
+    section{
+        padding: 1.875rem 0;
+    }
+    .header-scrolled{
+        height: auto;
+    }
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+        padding-bottom: 0.93rem;
+    }
+}
+
+@media (max-width: 767px){
+    h1{
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+    }
+    h3{
+        font-size: 1.75rem;
+        line-height: 2.18rem;
+    }
+    h5{
+        font-size: 1.25rem;
+    }
+    p{
+        font-size: 0.81rem;
+        line-height: 1.25rem;
+    }
+    .header-wrapper .navbar{
+        padding: 0.35rem 0;
+    }
+}
