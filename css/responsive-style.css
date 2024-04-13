@@ -1,4 +1,11 @@
+@media (max-width: 1525px){
+    .booking-area{
+        width: 85vw;
+    }
+}
+
 @media (max-width: 1199px){
+    /* HEADER */
     .navbar-expand-lg .navbar-nav{
         align-items: center;        
     }
@@ -9,13 +16,27 @@
     .main-btn{
         font-size: 1rem;
     }
+
+    /* BOOKING AREA */
+    .booking-area{
+        width: 95vw;
+    }
+    .booking-area .main-btn{
+        padding-left: 0.3125rem !important;
+        padding-right: 0.3125rem !important;
+    }
+    .booking-area .form-control{
+        padding: 6px 6px;
+    }
 }
 
 
 @media (max-width: 991px){
+    /* CUSTOM */
     section{
         padding: 1.875rem 0;
     }
+    /* HEADER */
     .header-scrolled{
         height: auto;
     }
@@ -23,9 +44,21 @@
         text-align: center;
         padding-bottom: 0.93rem;
     }
+    .booking-area {
+        position: relative;
+        bottom: 1rem; /* adjust this value to control the amount of overlap */
+        left: 0;
+        transform: none;
+        width: 100%;
+    }
+    .booking-area .form-select{
+        background-position: right 0.5rem center; /* adjust the position of the arrow */
+        padding-right: 0; /* add padding to prevent text overlap with the arrow */
+    }
 }
 
 @media (max-width: 767px){
+    /* CUSTOM CSS */
     h1{
         font-size: 1.875rem;
         line-height: 2.5rem;

@@ -6,7 +6,7 @@
     <title>Hotel Website</title>
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./Images/favicon1.png" type="image/x-icon">
 
     <!-- BOOTSTRAP-5 CDN LINKS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
               <a class="navbar-brand" href="#">
-                <img src="./Images/logo.png" class="img-fluid" alt="logo">
+                <img src="./Images/logo7.png" class="img-fluid" alt="logo" id="logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
@@ -93,8 +93,45 @@
       </div>
       <div class="container booking-area">
         <form class="row">
-          <div class="col-lg mb-3 mb-lg-0">
+          <div class="field col-lg mb-3 mb-lg-0">
             <input type="date" class="form-control" placeholder="Date" id="">
+          </div>
+          <div class="field col-lg mb-3 mb-lg-0">
+            <input type="date" class="form-control" placeholder="Date" id="">
+          </div>
+          <div class="field col-lg mb-3 mb-lg-0">
+            <select name="" class="form-select" id="">
+              <option selected>Adults</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="field col-lg mb-3 mb-lg-0">
+            <select name="" class="form-select" id="">
+              <option selected>Children</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="field col-lg mb-3 mb-lg-0">
+            <select name="" class="form-select" id="">
+              <option selected>Rooms</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div class="field col-lg mb-3 mb-lg-0">
+            <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
           </div>
         </form>
       </div>          
