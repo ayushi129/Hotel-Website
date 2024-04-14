@@ -18,6 +18,9 @@
     }
 
     /* BOOKING AREA */
+    .banner-wrapper{
+        height: 35rem;
+    }
     .booking-area{
         width: 95vw;
     }
@@ -76,5 +79,12 @@
     }
     .header-wrapper .navbar{
         padding: 0.35rem 0;
+    }
+    .banner-wrapper{
+        height: 30rem;
+    }
+    .booking-area {
+        width: 85%;
+        bottom: -1.5rem; /* adjust this value to control the amount of overlap */
     }
 }
