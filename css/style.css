@@ -11,8 +11,8 @@
 :root{
     /* Background Color */
     --primary-color: #021832;
-    --secondary-color: #E77D00;
-    /* --secondary-color: #caa169; */
+    /* --secondary-color: #E77D00; */
+    --secondary-color: #caa169;
     --bg-color: #f4f4f4;
     --bg-white: #fff;
     --bg-black: #000;
@@ -311,4 +311,13 @@ p{
     justify-content: space-evenly;
     align-items: center;    
     flex-wrap: nowrap;
+}
+
+
+/* ABOUT SECTION */
+/* .about-wrapper{
+    padding-top: 9.375rem;
+} */
+.about-wrapper>div h3{
+    letter-spacing: 0.1rem;
 }

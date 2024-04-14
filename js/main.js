@@ -33,3 +33,5 @@ var swiper = new Swiper('.mySwiper', {
     },
 });
 
+console.log(window.screen.width, window.screen.height);
+

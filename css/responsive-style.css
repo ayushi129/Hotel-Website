@@ -1,6 +1,10 @@
-@media (max-width: 1525px){
+@media (max-width: 1540px){
+    /* BOOKING AREA */
     .booking-area{
         width: 85vw;
+    }
+    .banner-wrapper{
+        height: 40rem;
     }
 }
 
@@ -47,6 +51,8 @@
         text-align: center;
         padding-bottom: 0.93rem;
     }
+
+    /* BOOKING AREA */
     .booking-area {
         position: relative;
         bottom: 1rem; /* adjust this value to control the amount of overlap */
@@ -57,6 +63,12 @@
     .booking-area .form-select{
         background-position: right 0.5rem center; /* adjust the position of the arrow */
         padding-right: 0; /* add padding to prevent text overlap with the arrow */
+    }
+
+    /* ABOUT */
+    .about-wrapper{
+        padding-top: 20rem;
+  
     }
 }
 
@@ -77,9 +89,12 @@
         font-size: 0.81rem;
         line-height: 1.25rem;
     }
+    /* HEADER */
     .header-wrapper .navbar{
         padding: 0.35rem 0;
     }
+
+    /* BOOKING AREA */
     .banner-wrapper{
         height: 30rem;
     }
