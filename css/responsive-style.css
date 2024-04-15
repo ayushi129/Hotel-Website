@@ -120,6 +120,9 @@
     }
 
     /* SERVICES SECTION */
+    .services-wrapper{
+        overflow: hidden;
+    }
     .service-menu-area{
         padding: 1.5rem 0.5rem;
     }
@@ -127,9 +130,14 @@
         margin-left: unset !important;
     }
     .service-item-wrap .tab-content img{
-        display: block !important;
+        clip-path: inset(0 28% 0 0);
         width: 100% !important;
-        height: 100% !important;
+        height: auto !important;
+        position: relative;
+        transform: scaleX(1.39);/*scale the image horizontally*/
+        object-fit: cover; /*scale the image to cover the container while maintaining its aspect ratio*/
+        object-position: left;
+        transform-origin: left;
     }
 }
 
