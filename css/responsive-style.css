@@ -35,6 +35,17 @@
     .booking-area .form-control{
         padding: 6px 6px;
     }
+
+    /* ROOMS SECTION */
+    .room-items .room-content{
+        padding: 1rem 1.875rem;
+    }
+    .room-items .room-content h5{
+        font-size: 1.2rem;
+    }
+    .room-items .room-content p{
+        font-size: 0.75rem;
+    }
 }
 
 
@@ -70,6 +81,17 @@
         padding-top: 20rem;
   
     }
+
+    /* ROOMS SECTION */
+    .room-items .room-content{
+        padding: 1rem 1.875rem;
+    }
+    .room-items .room-content h5{
+        font-size: 1.5rem;
+    }
+    .room-items .room-content p{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 767px){
@@ -101,5 +123,16 @@
     .booking-area {
         width: 85%;
         bottom: -1.5rem; /* adjust this value to control the amount of overlap */
+    }
+
+    /* ROOMS SECTION */
+    .room-items .room-content{
+        padding: 1rem 1.875rem;
+    }
+    .room-items .room-content h5{
+        font-size: 1.5rem;
+    }
+    .room-items .room-content p{
+        font-size: 1rem;
     }
 }
