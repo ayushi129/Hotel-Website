@@ -46,6 +46,33 @@
     .room-items .room-content p{
         font-size: 0.75rem;
     }
+
+    /* SERVICE SECTION */
+    .service-item-wrap .tab-content img{
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .service-menu-area ul li a{
+        margin-bottom: 0.8125rem;
+        overflow: hidden;
+    }
+    .service-menu-area ul li:nth-child(1){
+        margin-top: 0.8125rem;
+        margin-left: -4.4375rem;
+    }
+    .service-menu-area ul li:nth-child(2){
+        margin-left: -6.9375rem;
+    }
+    .service-menu-area ul li:nth-child(3){
+        margin-left: -9.375rem;
+    }
+    .service-menu-area ul li:nth-child(4){
+        margin-left: -12.8125rem;
+    } 
+    .service-menu-area ul li a h5{
+        margin-bottom: 0.375rem;
+    }
 }
 
 
@@ -78,8 +105,7 @@
 
     /* ABOUT */
     .about-wrapper{
-        padding-top: 20rem;
-  
+        padding-top: 20rem;  
     }
 
     /* ROOMS SECTION */
@@ -91,6 +117,19 @@
     }
     .room-items .room-content p{
         font-size: 1rem;
+    }
+
+    /* SERVICES SECTION */
+    .service-menu-area{
+        padding: 1.5rem 0.5rem;
+    }
+    .service-menu-area ul li{
+        margin-left: unset !important;
+    }
+    .service-item-wrap .tab-content img{
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
     }
 }
 

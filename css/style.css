@@ -324,9 +324,6 @@ p{
 
 
 /* ROOM SECTION */
-.rooms-wrapper{
-    margin-bottom: 10rem;
-}
 .rooms-wrapper .room-items{
     position: relative;
     overflow: hidden;
@@ -379,4 +376,79 @@ p{
     opacity: 1;
     transform: scale3d(1 , 1,  1);
     -webkit-transform: scale3d(1 , 1,  1);
+}
+
+
+/* SERVICES SECTION*/
+.service-item-wrap{
+    background-color: var(--bg-color);
+}
+.service-menu-area ul li a{
+    display: block;
+    margin-bottom: 2.8125rem;
+}
+.service-menu-area ul li a .service-icon{
+    height: 5.625rem;
+    width: 5.625rem;
+    line-height: 5.625rem;
+    background-color: var(--secondary-color);
+    text-align: center;
+    border-radius: 100%;
+    float: left;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.service-menu-area ul li a .service-icon:hover,
+.service-menu-area ul li a.active .service-icon{
+    background-color: var(--primary-color);
+    color: var(--text-white);
+    box-shadow: 0.125rem rgb(34 30 31 / 40%);
+}
+.service-menu-area ul li:nth-child(1){
+    margin-left: 0.5625rem;
+}
+.service-menu-area ul li:nth-child(2){
+    margin-left: -2.9375rem;
+}
+.service-menu-area ul li:nth-child(3){
+    margin-left: -6.375rem;
+}
+.service-menu-area ul li:nth-child(4){
+    margin-left: -8.8125rem;
+}
+.service-menu-area ul li a p,
+.service-menu-area ul li a h5
+{
+    padding-left: 6.875rem;
+    display: block;
+    text-align: left;
+}
+.service-menu-area ul li a p span{
+    color: var(--secondary-text);
+}
+.counter{
+    background-image: url("../Images/counter-bg.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3.125rem;
+    position: relative;
+    margin-top: 5rem;
+}
+.counter::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-black);
+    opacity: 0.5;
+    z-index: 1;
+}
+.counter h1,
+.counter p{
+    position: relative;
+    z-index: 3;
+    color: var(--text-white);
 }
