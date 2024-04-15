@@ -134,8 +134,8 @@
         width: 100% !important;
         height: auto !important;
         position: relative;
-        transform: scaleX(1.39);/*scale the image horizontally*/
-        object-fit: cover; /*scale the image to cover the container while maintaining its aspect ratio*/
+        transform: scaleX(1.39);
+        object-fit: cover;
         object-position: left;
         transform-origin: left;
     }
