@@ -569,3 +569,34 @@ p{
     opacity: 1;
     left: 0;
 }
+
+
+/* PRICING SECTION */
+.price-wrapper .card{
+    box-shadow: 0 0.125rem 0.25rem rgba(34 30 31 / 40%);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.price-wrapper .card:hover{
+    background-color: var(--secondary-color);
+}
+.price-wrapper .card:hover h3,
+.price-wrapper .card:hover h5,
+ .price-wrapper .card:hover p{
+    color: var(--text-white);
+}
+.price-wrapper .card:hover .main-btn{
+    color: var(--text-white);
+    border-color: var(--text-white);
+}
+
+
+/* BLOG SECTION */
+.blog-wrapper .blog-content{
+    margin: -5rem 0 0 4.375rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(34 30 31 / 40%);
+}
